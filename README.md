@@ -16,9 +16,9 @@ Heavily simplified version of template found on Google  help (see https://develo
 ### 2) Import template
 - Import the `.tpl` file into Google Tag Manager
   - `Templates > New > Import (top right)`
-- Edit the localStorage variable name you would be using in your code
+- Edit the `localStorage` variable name you would be using in your code
   - `Permissions > Access local storage > Edit key`
-  - *Remember to change the key name in the code tab as well wherever localStorage is used
+  - *Remember to change the key name in the code tab as well wherever `localStorage` is used
 - Add a new tag using the new template
   - `Tags > New > Tag Configuration > Custom > Simple Consent JS + HTML`
 - Add Consent Initilization trigger
